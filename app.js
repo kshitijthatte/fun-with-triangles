@@ -7,9 +7,9 @@ isTriangleBtn.addEventListener("click", () => {
     inputs[0].value &&
     inputs[1].value &&
     inputs[2].value &&
-    inputs[0].value !== 0 &&
-    inputs[1].value !== 0 &&
-    inputs[2].value !== 0
+    inputs[0].value != 0 &&
+    inputs[1].value != 0 &&
+    inputs[2].value != 0
   )
     isTriangle();
   else isTriangleOutput.innerText = "The angles can't be empty or 0";
