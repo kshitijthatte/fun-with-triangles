@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --primary-color: #112d4e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+.nav-links {
+  padding: 1rem;
+  color: white;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+}
+
+input[type="number"] {
+  padding: 1rem;
+  width: 20rem;
+}
+label {
+  padding: 0.5rem;
+}
+.output {
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  width: 20rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  font-size: large;
+}
+
+button:hover {
+  border: 3px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.formula {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 5px solid var(--primary-color);
+}
+
+.quiz-form {
+  margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.question-container {
+  border: 3px solid var(--primary-color);
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.question-container p {
+  padding-bottom: 1rem;
+}
+
+.question-container label {
+  width: 20rem;
+  padding-left: 0;
+  padding-right: 1rem;
+}
